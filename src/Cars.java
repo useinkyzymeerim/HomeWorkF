@@ -10,7 +10,9 @@ public class Cars {
         car.put("Lexus", 2009);
         car.put("BMW", 2020);
         car.put("Honda",2000);
-        System.out.print(car);
+        System.out.println(car.keySet());
+        System.out.println(car.values());
+        System.out.println(car);
 
 
 
